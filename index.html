@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+
+<head>
+  <title>Crystal Collector!</title>
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="assets/javascript/game.js"></script>
+
+</head>
+
+<body background="assets/images/Luna.JPG">
+
+
+
+  <div class="row">
+    <div class="col-md-4 title">
+      Crystal Collector!
+    </div>
+  </div>
+
+
+
+  <div class="row">
+    <div class="col-md-6 howTo">
+      * You will be given a random number at the start of the game.
+      <br />
+      <br />
+      * There are four crystals below. By clicking on a crystal, you will add a specific amount of points to your
+      total
+      score.
+      <br />
+      <br />
+      * You win the game by matching your total score to the random number. You lose the game if your score goes above
+      the random number.
+      <br />
+      <br />
+      * The value of each crystal is hidden from you until you click on it.
+      <br />
+      <br />
+      * Each time when the game starts, the game will change the values of each crystal.
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-3 score">
+      <p class="data"></p> <span id="randomNumber" class="score"></span>
+    </div>
+
+    <div class="col-md-2 winsLosses">
+      <p class="data">Wins:</p> <span id="numberOfWins" class="winsLosses"></span>
+      <p class="data">Losses:</p> <span id="numberOfLosses" class="winsLosses"></span>
+    </div>
+  </div>
+
+
+
+
+  <div class="row">
+    <div class="col-md-3 crystals">
+
+
+      <img src="assets/images/greengem.png" id="green" width="100" height="100" class="rounded float-left"
+        alt="green gem" />
+
+      <img src="assets/images/redgem.png" id="red" width="100" height="100" class="rounded float-left" alt="red gem" />
+
+      <img src="assets/images/purplegem.png" id="purple" width="100" height="100" class="rounded float-left"
+        alt="purple gem" />
+
+      <img src="assets/images/pinkgem.png" id="pink" width="100" height="100" class="rounded float-left"
+        alt="pink gem" />
+    </div>
+
+
+  </div>
+  <div class="row">
+    <div class="col-md-4 yourScore">
+      <p class="data">Your score: </p> <span id="totalScore" class="yourScore"></span>
+    </div>
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,49 @@
+/* .body {
+  background-image: url("../../assets/images/Luna.JPG");
+} */
+
+.title {
+  width: 50%;
+  margin: 25px 25px 5px 25px;
+  padding: 25px 25px 5px 25px;
+  font-family: arial, sans-serif;
+  color: white;
+  font-size: 300%;
+  text-align: center;
+  background-color: orange;
+}
+
+.howTo {
+  color: green;
+  font-size: 125%;
+  font-family: arial, sans-serif;
+  margin: 5px 25px 5px 25px;
+  text-align: center;
+  background-color: peachpuff;
+}
+
+.yourScore {
+  text-align: left;
+  font-size: 250%;
+  color: white;
+  background-color: teal;
+  font-family: arial, sans-serif;
+  height: 200px;
+}
+
+.score {
+  text-align: left;
+  font-size: 250%;
+  color: purple;
+  background-color: green;
+  font-family: arial, sans-serif;
+  height: 170px;
+}
+
+.winsLosses {
+  text-align: center;
+  font-size: 150%;
+  color: green;
+  background-color: lightblue;
+  font-family: arial, sans-serif;
+}
